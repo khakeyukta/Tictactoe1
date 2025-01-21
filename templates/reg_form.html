@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='index.css')}}">
+</head>
+<body id="bg">
+    <h4 id="title">REGISTRATION</h4>
+    <form id="form" action="/reg">
+        <h4>UserId</h4>
+        <input type="string" placeholder="Enter your UserId">
+        <br>
+        <h4>Password</h4>
+        <input type="password" placeholder="Enter your Password">
+        <br>
+        <br>
+        <hr>
+        <button type="submit">SUBMIT</button>
+      </form>
+    
+
+</body>
+</html>

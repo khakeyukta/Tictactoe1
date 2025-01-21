@@ -1,0 +1,40 @@
+ body{background-color: #4DA1A9;
+} 
+div{width:1000px;
+    height:1000px;
+    background-color: #2E5077;
+    margin-left: 250px;
+    font-size:200px;
+    color:#F6F4F0;
+    text-align:center;
+    position: relative;
+
+}
+#btn{width: 300px;
+padding: 20px;
+color:#2E5077;
+font-family: 'Courier New', Courier, monospace;
+font-size:50px;}
+
+form{background-color:#F6F4F0;
+width: 500px;
+text-align: center;
+padding: 20px;
+border:double #2E5077  20px;
+color: #2E5077;
+margin-top: 200px;
+margin-left: 450px;}
+
+#submit{background-color:#2E5077;
+width:80px;
+height:30px;
+padding: 10px;
+text-align: center;
+color:#F6F4F0}
+
+#form{font-size:20px;
+    position:absolute;
+
+}
+
+#bg{background-color: #F6F4F0;}
